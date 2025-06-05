@@ -8,7 +8,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		int vetor[] = {15, 8, 23, 4, 42, 5, 0};
 		MediaVetorController medvet = new MediaVetorController();
-		int resultado = medvet.mediaVetor(vetor);
+		double resultado = medvet.mediaVetor(vetor);
 		System.out.println("A média do vetor foi de: " + resultado);
 	}
 
